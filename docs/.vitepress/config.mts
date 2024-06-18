@@ -31,7 +31,7 @@ export default defineConfig({
     zh: {
       label: "Chinese | 中文",
       lang: "zh-CN",
-      link: "/zh-CN/index"
+      link: "/zh-CN"
     }
   }
 })
