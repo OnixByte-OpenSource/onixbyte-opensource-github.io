@@ -28,10 +28,10 @@ export default defineConfig({
       label: "English (Great Britain)",
       lang: "en-GB"
     },
-    zh: {
-      label: "Chinese | 中文",
+    "zh-CN": {
+      label: "Chinese (Simplified) | 简体中文",
       lang: "zh-CN",
-      link: "/zh-CN/index"
+      link: "/zh-CN"
     }
   }
 })
