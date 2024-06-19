@@ -16,17 +16,33 @@ function nav(): DefaultTheme.NavItem[] {
       link: "/",
       activeMatch: "/",
     },
+    {
+      text: "Open-source Projects",
+      items: [
+        {
+          text: "JDevKit",
+          link: "/jdevkit",
+          items: [
+            {
+              text: "Devkit Utils",
+              link: "/devkit-utils",
+            },
+          ],
+        },
+      ],
+    },
   ]
 }
 
 function sidebar(): DefaultTheme.Sidebar {
-  return [
-    {
-      text: "Examples",
-      items: [
-        { text: "Markdown Examples", link: "/markdown-examples" },
-        { text: "Runtime API Examples", link: "/api-examples" },
-      ],
-    },
-  ]
+  return {
+    "/jdevkit": [
+      {
+        text: "JDevKit",
+        items: [
+          { text: "Devkit Utils", link: "/jdevkit/devkit-utils" },
+        ],
+      },
+    ],
+  }
 }

@@ -16,6 +16,10 @@ function nav(): DefaultTheme.NavItem[] {
       link: "/zh-CN/",
       activeMatch: "/zh-CN/",
     },
+    {
+      text: "开源项目",
+      items: [{ text: "JDevKit", link: "/zh-CN/jdevkit.md" }],
+    },
   ]
 }
 
