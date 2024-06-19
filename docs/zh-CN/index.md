@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "OnixByte"
-  tagline: OnixByte 官方网站
+  tagline: 一个非营利性开源开发者组织。
   actions:
     - theme: brand
       text: Markdown 示例

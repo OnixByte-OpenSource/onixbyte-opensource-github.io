@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "OnixByte"
-  tagline: My great project tagline
+  tagline: A non-profit open source developer organisation.
   actions:
     - theme: brand
       text: Markdown Examples
