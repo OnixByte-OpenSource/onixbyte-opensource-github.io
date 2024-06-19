@@ -33,6 +33,10 @@ jobs:
         with:
           fetch-depth: 0
       - uses: pnpm/action-setup@v3
+        name: Install pnpm
+        with:
+          version: 9.4.0
+          run_install: false
       # - uses: oven-sh/setup-bun@v1 # Uncomment this if you're using Bun
       - name: Setup Node
         uses: actions/setup-node@v4
