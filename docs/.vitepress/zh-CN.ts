@@ -5,6 +5,7 @@ export const zhCN = defineConfig({
   description: "一个非营利性开源开发者组织。",
   themeConfig: {
     nav: nav(),
+    sidebar: sidebar(),
   },
 })
 
@@ -14,6 +15,18 @@ function nav(): DefaultTheme.NavItem[] {
       text: "主页",
       link: "/",
       activeMatch: "/",
+    },
+  ]
+}
+
+function sidebar(): DefaultTheme.Sidebar {
+  return [
+    {
+      text: "案例",
+      items: [
+        { text: "Markdown 案例", link: "/zh-CN/markdown-examples" },
+        { text: "运行时 API 案例", link: "/zh-CN/api-examples" },
+      ],
     },
   ]
 }
