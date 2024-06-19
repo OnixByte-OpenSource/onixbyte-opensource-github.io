@@ -13,8 +13,8 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: "主页",
-      link: "/",
-      activeMatch: "/",
+      link: "/zh-CN/",
+      activeMatch: "/zh-CN/",
     },
   ]
 }
